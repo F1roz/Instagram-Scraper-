@@ -58,7 +58,7 @@ images = images[:-2]
 
 print('Number of scraped images: ', len(images))
 
-# In[17]:
+
 
 
 import os
@@ -69,7 +69,7 @@ path = os.path.join(path, keyword[1:] + "s")
 
 os.mkdir(path)
 
-# In[18]:
+
 
 
 counter = 0
